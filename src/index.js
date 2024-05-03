@@ -55,9 +55,8 @@ app.get(
   (req, res) => {
     const { user } = req;
     const token = newToken(user);
-    return res.redirect(
-      `http://localhost:9000/auth/google/?token=${token}&name=${user.name}&profile=${user.profileImage}`
-    );
+    return res.redirect
+    ( `http://localhost:9000/auth/google/?token=${token}&name=${user.name}&profile=${user.profileImage}`);
   }
 );
 
