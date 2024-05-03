@@ -1,4 +1,4 @@
-## Oauth2-eos
+## Oauth2
 ## Project Structure
 ```javascript
 /backend
